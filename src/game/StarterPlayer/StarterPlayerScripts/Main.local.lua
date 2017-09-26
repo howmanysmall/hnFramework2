@@ -1,3 +1,13 @@
+--@author: HowManySmall
+--@date: 09.26.2017
+
+--@optimizations
+local game = game
+local require = require
+local pairs = pairs
+local type = type
+local spawn = spawn
+--@main
 game.StarterGui.ResetPlayerGuiOnSpawn = false
 local main = { Services = require(game:GetService("ReplicatedStorage"):WaitForChild("RemoteServices"):WaitForChild("Services")) }
 function LoadModules()
